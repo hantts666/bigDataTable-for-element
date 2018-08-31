@@ -53,5 +53,5 @@ this.tableControl = new BigDataTable(this, options)
 并且把该方法对应到elementUI中的table控件的row-style属性中,把fillData作为渲染数据:
 
 ``
-<el-table :row-style="fillrow" :data="fillData" :row-key="getRowKeys" header-row-class-name="table-header-bg-color">...
+<el-table :row-style="fillrow" :data="fillData">...
 ``
